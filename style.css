@@ -44,7 +44,7 @@ body:before {
   transform: rotate(20deg);
 }
 /* ------------------------------------------------------------------ */
-/* Header Styles
+/* Header Section
 /* ------------------------------------------------------------------ */
 
 header {
@@ -97,17 +97,14 @@ header .banner-text h3 a {
 }
 header .banner-text hr {
   width: 60%;
-  margin: 18px auto 24px auto;
-  border-color: #2f2d2e;
+
   border-color: rgba(150, 150, 150, 0.1);
 }
-/*About-Section*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-}
+
+/* ------------------------------------------------------------------ */
+/* About-Section
+/* ------------------------------------------------------------------ */
+
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -215,9 +212,11 @@ a {
   transform: translateY(0);
   transition: all ease-out;
 }
-/* Education Section */
+/* ------------------------------------------------------------------ */
+/* Eduction-Section
+/* ------------------------------------------------------------------ */
 #resume {
-  padding-top: 90px;
+  padding-top: 43px;
   padding-bottom: 72px;
   overflow: hidden;
 }
@@ -243,6 +242,11 @@ a {
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
+#resume hr {
+  width: 60%;
+  margin: 20px 27px;
+  border-color: rgba(150, 150, 150, 0.1);
+}
 
 #resume .header-col {
   padding-top: 9px;
@@ -251,12 +255,6 @@ a {
   padding-right: 10%;
 }
 
-.education,
-.work {
-  margin-bottom: 48px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
-}
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
   color: #6e7881;
@@ -270,4 +268,16 @@ a {
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+}
+.education {
+  position: relative;
+  padding: 0 274px;
+  min-height: 1px;
+  float: left;
+}
+.works {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  padding-top: 56px;
 }
