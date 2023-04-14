@@ -1822,12 +1822,19 @@ input::-moz-focus-inner {
 
 /** 
  * ===================================================================
+ * 13. project - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+/** 
+ * ===================================================================
  * 13. portfolio - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-  background-image: url(/images/bg100.jpg);
+  background-image: url(../images/bg100.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
