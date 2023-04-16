@@ -1337,7 +1337,7 @@
 }
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
-  content: "\f19d";
+/*   content: "\f19d"; */
 }
 .fa-yahoo:before {
   content: "\f19e";
