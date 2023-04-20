@@ -1,540 +1,984 @@
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Rahul Saini</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/rahulmeetawa.ico" type="image/x-icon" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/vendor.css" />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
 
-    <link rel="icon" type="image/png" href="./images/rahulmeetawa.ico" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Rahul Saini</title>
   </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">RAHU</a>
 
-  <body id="top">
-    <!-- intro header
-   ================================================== -->
-
-    <!-- intro section
-   ================================================== -->
-    <section id="intro">
-      <div class="intro-overlay"></div>
-
-      <div class="intro-content">
-        <div class="row">
-          <div class="col-twelve">
-            <h1>Hey I'm Rahul.</h1>
-
-            <p class="intro-position">
-              <span>Front-end Developer</span>
-            </p>
-
-            <a class="button stroke smoothscroll" href="#about" title=""
-              >About Me</a
-            >
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="uil uil-user nav__icon"></i>About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link"
+                ><i class="uil uil-briefcase-alt nav__icon"></i>Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link"
+                ><i class="uil uil-scenery nav__icon"></i>Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
           </div>
         </div>
-      </div>
-      <!-- /intro-content -->
+      </nav>
+    </header>
 
-      <ul class="intro-social">
-        <li>
-          <a href="https://github.com/rahulmeetawa"
-            ><i class="fa fa-github"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/rahulmeetawa/"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/rahumeetawa"
-            ><i class="fa fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/profile.php?id=100021983603336"
-            ><i class="fa fa-facebook"></i
-          ></a>
-        </li>
-      </ul>
-      <!-- /intro-social -->
-    </section>
-    <!-- /intro -->
-
-    <!-- about section
-   ================================================== -->
-    <section id="about">
-      <!-- /section-intro -->
-      <section class="about">
-        <h5 class="section-intro yo">About</h5>
-
-        <div class="row">
-          <div class="image">
-            <img
-              draggable="false"
-              class="tilt"
-              src="./images/rahul.jpg"
-              alt=""
-            />
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/rahulmeetawa/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/rahulmeetawa"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100021983603336"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a
+                href="https://twitter.com/rahumeetawa"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+              <a
+                href="https://medium.com/@rahulmeetawa"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-medium-m"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    href="./assets/img/home_img.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="class__title">Hey, I am Rahul</h1>
+              <h3 class="home__subtitle">Frontend Developer</h3>
+              <p class="home__description">
+                High level experience in web design and knowledge, producing
+                quality work
+              </p>
+              <a href="#contact" class="button button--flex"
+                >Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
           </div>
-          <div class="content">
-            <h3>Rahul Saini</h3>
-            <span class="tag">Frontend Developer</span>
-
-            <p>
-              I am a Developer.I like dabbling in various parts of frontend
-              development,Strong engineering professional with a Bachelor's
-              Degree focused in Computer Science and Technology from B.K. Birla
-              Institute of Engineering & Technology,pilani and like to learn
-              about new technologies
-            </p>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-home">Scroll down</span>
+              <i class="uil uil-arrow-circle-down home__scroll-arrow"></i>
+            </a>
           </div>
         </div>
       </section>
-      <div class="row about-content">
-        <div class="col-six tab-full">
-          <h3>Profile</h3>
-          <p>
-            I am currently a pre-final year student at B K Birla Institute of
-            Engineering & Technology, Pilani and pursuing my B.Tech from here. I
-            am a self taught Web Developer, I believe that to be successful in
-            life
-          </p>
 
-          <ul class="info-list">
-            <li>
-              <strong>Fullname:</strong>
-              <span>Rahul Saini</span>
-            </li>
-            <li>
-              <strong>Birth Date:</strong>
-              <span>December 18, 2002</span>
-            </li>
-            <li>
-              <strong>Address:</strong>
-              <span>JhunJhunu Rajasthan,India</span>
-            </li>
-            <li>
-              <strong>Skype:</strong>
-              <span>live:.cid.f9d3f5b26e1707b9</span>
-            </li>
-            <li>
-              <strong>Email:</strong>
-              <span>rahulmeetawa@gmail.com </span>
-            </li>
-          </ul>
-          <!-- /info-list -->
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+        <div class="about__container container grid">
+          <img src="./assets/img/about_img.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">
+              I am a Frontend Developer.I like dabbling in various parts of
+              frontend development,Strong engineering professional with a
+              Bachelor's Degree focused in Computer Science and Technology from
+              B.K. Birla Institute of Engineering & Technology,pilani and like
+              to learn about new technologies
+            </p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name">Years<br />Experience</span>
+              </div>
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name">Completed<br />Project</span>
+              </div>
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name">Company<br />Worked</span>
+              </div>
+            </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="https://github.com/rahulmeetawa/Resume/raw/main/RESUME_RAHUL_SAINI.pdf"
+                class="button button--flex"
+                >Download CV<i class="uil uil-download-alt button__icon"></i
+              ></a>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="col-six tab-full">
-          <h3>Skills</h3>
-          <p>My skills</p>
-
-          <ul class="skill-bars">
-            <li>
-              <div class="progress percent90"><span>90%</span></div>
-              <strong>C/C++</strong>
-            </li>
-            <li>
-              <div class="progress percent85"><span>85%</span></div>
-              <strong>OOPS</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>DSA</strong>
-            </li>
-            <li>
-              <div class="progress percent95"><span>95%</span></div>
-              <strong>HTML</strong>
-            </li>
-            <li>
-              <div class="progress percent75"><span>75%</span></div>
-              <strong>CSS</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>JavaScript</strong>
-            </li>
-            <li>
-              <div class="progress percent70"><span>70%</span></div>
-              <strong>React JS</strong>
-            </li>
-            <li>
-              <div class="progress percent55"><span>55%</span></div>
-              <strong>Node JS</strong>
-            </li>
-          </ul>
-          <!-- /skill-bars -->
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Technical level</span>
+        <div class="skills__container container grid">
+          <div>
+            <!-- Skills 1 -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Frontend Developer</h1>
+                  <span class="skills__subtitle">More than 1 years</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">React JS</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Skills 2 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-programming-language skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Programming Language</h1>
+                  <span class="skills__subtitle">More than 2 years</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">C</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__c"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">C++</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__cpp"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__title">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="row button-section">
-        <div class="col-twelve">
-          <a
-            href="#contact"
-            title="Contact Me"
-            class="button stroke smoothscroll bg"
-            >Contact Me</a
-          >
-          <a
-            href="https://github.com/rahulmeetawa/Resume/raw/main/RESUME_RAHUL_SAINI.pdf"
-            title="Download Resume"
-            class="button button-primary"
-            >Resume</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /process-->
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My Journey</span>
 
-    <!-- resume Section
-   ================================================== -->
-    <section id="resume">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Resume</h5>
-          <h1>my credentials.</h1>
-        </div>
-      </div>
-      <!-- /section-intro-->
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Eduction
+            </div>
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Bachelor of Technology</h3>
+                  <span class="qualification__subtitle"
+                    >B.K. Birla Institute of Engineering & Technology,
+                    Pilani</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019-2023
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Senior Secondary (12th)</h3>
+                  <span class="qualification__subtitle"
+                    >Sanskar Science Academy, Gudha Gorji</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-2019
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Secondary School (10th)</h3>
+                  <span class="qualification__subtitle"
+                    >Cambridge Academy School,Babai</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2016-2017
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!--                   <span class="qualification__line"></span>
+ -->
+                </div>
+              </div>
+            </div>
 
-      <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
-          <h2>Education</h2>
+            <!--==================== QUALIFICATION CONTENT 2====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Engineer</h3>
+                  <span class="qualification__subtitle"
+                    >Optimizory technologies Pvt Ltd.</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022-2023
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!--                   <span class="qualification__line"></span>
+ -->
+                </div>
+                <div>
+                  <h3 class="qualification__title">Front Developer</h3>
+                  <span class="qualification__subtitle"
+                    >B K Birla Institute of Engineering & Technology</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021-2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row section-intro">
-          <div class="col-twelve">
-            <p class="lead">
-              Here All My Education Tree is Made Which Will Tell You What I
-              Studied and Where I Studied.
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What is offer</span>
+
+        <div class="services_container container grid">
+          <!--============== SERVICES 1 =============-->
+          <div class="services_content">
+            <div>
+              <i class="uil uil-web-grid services_icon"></i>
+              <h3 class="services_title">
+                Ui/Ux <br />
+                Designer
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services_button"
+            >
+              View More
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times services_modal-close"></i>
+
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>I develop the user interface</p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>Web page development</p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>I create ux element interactions</p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>I position your company brand.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--============== SERVICES 2 =============-->
+          <div class="services_content">
+            <div>
+              <i class="uil uil-web-grid services_icon"></i>
+              <h3 class="services_title">
+                Frontend <br />
+                Developer
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services_button"
+            >
+              View More
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">
+                  Frontend <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services_modal-close"></i>
+
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      Front end service is an essential component of any web
+                      application that is responsible for creating a
+                      user-friendly interface for the end-users.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      It includes designing and developing the graphical user
+                      interface (GUI) of the application, such as layout,
+                      navigation, and user interactions.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      Front end service uses various programming languages such
+                      as HTML, CSS, and JavaScript to create a responsive and
+                      interactive user interface.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      It helps to improve the overall user experience of the
+                      application and can directly impact the user's engagement
+                      with the product.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      A well-designed front end service can help to attract and
+                      retain users, enhance brand reputation, and increase
+                      overall customer satisfaction.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--============== SERVICES 3 =============-->
+          <div class="services_content">
+            <div>
+              <i class="uil uil-web-grid services_icon"></i>
+              <h3 class="services_title">
+                Web <br />
+                Services
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services_button"
+            >
+              View More
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <h4 class="services_modal-title">
+                  Web <br />
+                  Services
+                </h4>
+                <i class="uil uil-times services_modal-close"></i>
+
+                <ul class="services_modal-services grid">
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      Web API service is a type of software architecture that
+                      allows different software applications to communicate and
+                      exchange data over the internet.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      It provides a standardized way for applications to
+                      interact with each other, regardless of the programming
+                      language or platform used.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      Web API service uses various protocols such as HTTP and
+                      REST to enable data exchange between different software
+                      applications.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      It allows developers to create highly scalable and
+                      flexible software applications by decoupling the front-end
+                      and back-end components.
+                    </p>
+                  </li>
+                  <li class="services_modal-service">
+                    <i class="uil uil-check-circle services_modal-icon"></i>
+                    <p>
+                      Web API service is widely used in modern software
+                      development and plays a crucial role in enabling the
+                      integration of different systems and services.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!--============== SERVICES 4 =============-->
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--============ PORTFOLIO 1 ==============-->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="assets/img/portfolio-img.png"
+                alt=""
+                class="portfolio_img"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Portfolio Website</h3>
+                <p class="portfolio_description">
+                  The Portfolio App is a Single Page Web App, which is designed
+                  using React Js.
+                </p>
+                <a
+                  href="https://github.com/rahulmeetawa/personal-blog"
+                  class="button button--flex button--small portfolio_button"
+                  target="_blank"
+                >
+                  Repo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--============ PORTFOLIO 2 ==============-->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="assets/img/expense_tracker_img.jpg"
+                alt=""
+                class="portfolio_img"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Expense Tracking</h3>
+                <p class="portfolio_description">
+                  Tracking your spending is often the first step in getting your
+                  finances in order. By understanding what you spend money on
+                  and how much you spend, you can see exactly where your cash is
+                  going and areas where you can cut back.
+                </p>
+                <a
+                  href="https://github.com/rahulmeetawa/expense-tracker"
+                  class="button button--flex button--small portfolio_button"
+                  target="_blank"
+                >
+                  Repo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--============ PORTFOLIO 3 ==============-->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="assets/img/spotify_clone_img.jpg"
+                alt=""
+                class="portfolio_img"
+              />
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Spotify-Clone</h3>
+                <p class="portfolio_description">
+                  The Spotify Clone App is a Song Based Web App designed using
+                  HTML,CSS,JavaScript. This website is completely Responsive
+                  across all the Devices..
+                </p>
+                <a
+                  href="https://github.com/rahulmeetawa/spotify-clone"
+                  class="button button--flex button--small portfolio_button"
+                  target="_blank"
+                >
+                  Repo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--Add Arrow-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!--Add Pagination-->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section class="project section">
+        <div class="project_bg">
+          <div class="project_container container grid">
+            <div class="project_data">
+              <h2 class="project_title">You have new project</h2>
+              <p class="project_description">Contact Me</p>
+              <a href="#contact" class="button button--flex button--white">
+                Contact Me
+                <i class="uil uil-message project_icon button_icon"></i>
+              </a>
+            </div>
+
+            <img src="assets/img/contact_img.png" alt="" class="project_img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">What people saying</span>
+
+        <div class="testimonial_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--========= TESTIMONIAL 1 ==========-->
+            <div class="testimonial_content swiper-slide">
+              <div class="testimonial_data">
+                <div class="testimonial_header">
+                  <img
+                    src="assets/img/shivam_t.jpg"
+                    alt=""
+                    class="testimonial_img"
+                  />
+
+                  <div>
+                    <h3 class="testimonial_name">Shivam</h3>
+                    <span class="testimonial_client">Friend</span>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial_description">
+                I had the pleasure of checking out my friend's portfolio site
+                and was blown away by their talent and creativity. The site
+                itself was beautifully designed, with a sleek and modern
+                interface that really showcased their work. The attention to
+                detail and quality of their projects really impressed me, and it
+                was clear that they have a real passion for what they do. I have
+                no doubt that they will continue to make a name for themselves
+                in the industry and I can't wait to see what they come up with
+                next. If you're looking for a talented and passionate designer,
+                look no further than my friend's portfolio site
+              </p>
+            </div>
+            <!--========= TESTIMONIAL 2 ==========-->
+            <div class="testimonial_content swiper-slide">
+              <div class="testimonial_data">
+                <div class="testimonial_header">
+                  <img
+                    src="assets/img/sunny_t.jpg"
+                    alt=""
+                    class="testimonial_img"
+                  />
+
+                  <div>
+                    <h3 class="testimonial_name">Shubhanshu Singh</h3>
+                    <span class="testimonial_client">Friend</span>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial_description">
+                I recently stumbled upon my friend's portfolio site and was
+                immediately impressed by their work. Their designs were not only
+                visually stunning, but also highly functional and user-friendly.
+                I appreciated their attention to detail and their ability to
+                create custom solutions that perfectly fit the needs of their
+                clients. Their portfolio showcased a diverse range of projects,
+                from branding to web design to print collateral, demonstrating
+                their versatility as a designer. I have no doubt that they will
+                continue to excel in their field and I would highly recommend
+                their services to anyone looking for top-notch design work
+              </p>
+            </div>
+            <!--========= TESTIMONIAL 3 ==========-->
+            <div class="testimonial_content swiper-slide">
+              <div class="testimonial_data">
+                <div class="testimonial_header">
+                  <img
+                    src="assets/img/deepak_t.jpg"
+                    alt=""
+                    class="testimonial_img"
+                  />
+
+                  <div>
+                    <h3 class="testimonial_name">Deepak Sir</h3>
+                    <span class="testimonial_client">Teacher</span>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial_description">
+                I recently had the pleasure of viewing my student's portfolio
+                site and was incredibly impressed by their skills and
+                creativity. The site was well-organized and easy to navigate,
+                making it a joy to explore their projects. Their work
+                demonstrated a deep understanding of design principles and their
+                ability to execute their ideas with precision and attention to
+                detail was impressive. I was particularly impressed with their
+                ability to use various design tools and software to create
+                unique and visually striking designs. It's clear that my student
+                has a bright future ahead of them in the design industry and I
+                look forward to seeing all that they will accomplish in the
+                years to come..
+              </p>
+            </div>
+          </div>
+          <!--Add Pagination-->
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Call Me</h3>
+                <span class="contact_subtitle">6350691734</span>
+              </div>
+            </div>
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">rahulmeetawa@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact_information">
+              <i class="uil uil-map-marker contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Location</h3>
+                <span class="contact_subtitle">Jhunjhunu,rajasthan(India)</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Name</label>
+                <input type="text" class="contact_input" />
+              </div>
+              <div class="contact_content">
+                <label for="" class="contact_label">Email</label>
+                <input type="email" class="contact_input" />
+              </div>
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Project</label>
+              <input type="tetx" class="contact_input" />
+            </div>
+            <div class="contact_content">
+              <label for="" class="contact_label">Project description</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact_input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Rahul Saini</h1>
+            <span class="footer_subtitle">front-end developer</span>
+            <p class="footer_subtitle">
+              High level experience in web design, front-end, producing quality
+              work
             </p>
           </div>
-        </div>
-        <!-- /resume-header -->
-
-        <div class="col-twelve">
-          <div class="timeline-wrap">
-            <div class="timeline-block">
-              <div class="timeline-ico"></div>
-
-              <div class="timeline-header">
-                <h3>Secondary School (10th)</h3>
-                <p>Mar 2016 - Jun 2017</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>Cambridge Academy School,Babai</h4>
-                <p>
-                  Established in year 2010, CAMBRIGE AC. BABAI is located in
-                  Rural area of Rajasthan state/ut of India. In Babai area of
-                  Khetri block of Jhunjhunu district. Area pincode is 333501.
-                  School is providing Upper Primary level education and is being
-                  managed by Private Unaided Organisation. Medium of instruction
-                  is English language and school is Co-educational.
-                </p>
-              </div>
-            </div>
-            <!-- /timeline-block -->
-
-            <div class="timeline-block">
-              <div class="timeline-ico"></div>
-
-              <div class="timeline-header">
-                <h3>Senior Secondary (12th)</h3>
-                <p>Mar 2018 - June 2019</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>Sanskar Science Academy, Gudha Gorji</h4>
-                <p>
-                  Sanskar Science Academy Sen. Sec. Sch. Gudhagorji Todi
-                  (pincode: 333022) Peeo Todi Udaipurwati Jhunjhunu
-                  Rajasthan.Higher School is providing Upper level education and
-                  is being managed by Private Unaided Organisation. Medium of
-                  instruction is English language and school is Co-educational
-                </p>
-              </div>
-            </div>
-            <!-- /timeline-block -->
-
-            <div class="timeline-block">
-              <div class="timeline-ico"></div>
-
-              <div class="timeline-header">
-                <h3>Bachelor Degree</h3>
-                <p>Aug 2019 - Present</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>B K Birla Institute of Engineering & Technology, Pilani</h4>
-                <p>
-                  B.K. Birla Institute of Engineering & Technology is an
-                  engineering college affiliated to Bikaner Technical University
-                  and located in Pilani, Rajasthan, India. It was founded in
-                  2007 by Krishnarpan Charity Trust, with Late Basant Kumar
-                  Birla as chairman
-                </p>
-              </div>
-            </div>
-            <!-- /timeline-block -->
-          </div>
-          <!-- /timeline-wrap -->
-        </div>
-        <!-- /col-twelve -->
-      </div>
-
-      <div class="row resume-timeline">
-        <div class="col-twelve resume-header">
-          <h2>Work Experience</h2>
-        </div>
-        <div class="row section-intro">
-          <div class="col-twelve">
-            <p class="lead">Here All My Work Experience Tree</p>
-          </div>
-        </div>
-        <!-- /resume-header -->
-
-        <div class="col-twelve">
-          <div class="timeline-wrap">
-            <div class="timeline-block">
-              <div class="timeline-ico"></div>
-
-              <div class="timeline-header">
-                <h3>Software Developer</h3>
-                <p>Nov 2022 - Present</p>
-              </div>
-
-              <div class="timeline-content">
-                <h4>Optimizory technologies Pvt Ltd.</h4>
-                <p>
-                  Optimizory is a first generation enterprise started by
-                  technopreneurs who bring a fresh perspective to the world of
-                  business. Optimizory strongly believes that all businesses
-                  have inherent inefficiencies which can be eliminated through
-                  pragmatic and usable products and processes.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- /timeline-wrap -->
-        </div>
-        <!-- /col-twelve -->
-      </div>
-      <!-- /resume-timeline -->
-      <!-- /resume-timeline -->
-    </section>
-    <!-- Portfolio Section
-   ================================================== -->
-    <section id="portfolio">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Photos</h5>
-          <h1>Check Out Some of My Photos.</h1>
-        </div>
-      </div>
-      <!-- /section-intro-->
-
-      <div class="row portfolio-content">
-        <div class="col-twelve">
-          <!-- portfolio-wrapper -->
-          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="images/image1.jpg" alt="Liberty" />
-                <a href="#modal-01" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Rafting</h3>
-                      <span class="folio-types"> Rishikesh </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="./images/image6.jpg" alt="Shutterbug" />
-                <a href="#modal-02" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Looking Sunrise</h3>
-                      <span class="folio-types"> Nainital </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="images/image5.jpg" alt="Clouds" />
-                <a href="#modal-03" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Mein Chala</h3>
-                      <span class="folio-types"> Pilani </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="images/image3.jpg" alt="Beetle" />
-                <a href="#modal-04" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Looking Sunset</h3>
-                      <span class="folio-types"> Nainital </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="images/image2.jpg" alt="Lighthouse" />
-                <a href="#modal-05" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">SRK Pose</h3>
-                      <span class="folio-types">pilani </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-
-            <div class="bgrid folio-item">
-              <div class="item-wrap">
-                <img src="images/image4.jpg" alt="Salad" />
-                <a href="#modal-06" class="overlay">
-                  <div class="folio-item-table">
-                    <div class="folio-item-cell">
-                      <h3 class="folio-title">Red Fort</h3>
-                      <span class="folio-types"> Delhi </span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <!-- /folio-item -->
-          </div>
-          <!-- /portfolio-wrapper -->
-        </div>
-        <!-- /twelve -->
-      </div>
-      <!-- /portfolio-content -->
-    </section>
-    <!-- /portfolio -->
-
-    <!-- contact
- ================================================== -->
-    <section id="contact">
-      <div class="row section-intro">
-        <div class="col-twelve">
-          <h5>Contact</h5>
-          <h1>You can contact me here</h1>
-        </div>
-      </div>
-      <!-- /section-intro -->
-
-      <div class="row contact-info">
-        <div class="col-four tab-full">
-          <div class="icon">
-            <i class="icon-pin"></i>
-          </div>
-
-          <h5>Where to find me</h5>
-
-          <p>
-            Babai,Khetri<br />
-            JhunJhunu,Rajasthan<br />
-            India
-          </p>
-        </div>
-
-        <div class="col-four tab-full collapse">
-          <div class="icon">
-            <i class="icon-mail"></i>
-          </div>
-
-          <h5>Email Me At</h5>
-
-          <p>
-            rahulmeetawa@gmail.com<br />
-            meetawa.rahul@gmail.com
-          </p>
-        </div>
-
-        <div class="col-four tab-full">
-          <div class="icon">
-            <i class="icon-phone"></i>
-          </div>
-
-          <h5>Call Me At</h5>
-
-          <p>Phone: 6350691734<br /></p>
-        </div>
-      </div>
-      <!-- /contact-info -->
-    </section>
-    <!-- /contact -->
-
-    <!-- footer
- ================================================== -->
-
-    <footer>
-      <div class="row">
-        <div class="col-six tab-full pull-right social">
-          <ul class="footer-social">
+          <ul class="footer_links">
             <li>
-              <a href="https://github.com/rahulmeetawa"
-                ><i class="fa fa-github"></i
-              ></a>
+              <a href="#services" class="footer_link">Services</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/rahulmeetawa/"
-                ><i class="fa fa-linkedin"></i
-              ></a>
+              <a href="#portfolio" class="footer_link">Portfolio</a>
             </li>
             <li>
-              <a href="https://twitter.com/rahumeetawa"
-                ><i class="fa fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100021983603336"
-                ><i class="fa fa-facebook"></i
-              ></a>
+              <a href="#contact" class="footer_link">Cantact Me</a>
             </li>
           </ul>
-        </div>
-
-        <div class="col-six tab-full">
-          <div class="copyright">
-            <span
-              >Design by
-              <a href="https://github.com/rahulmeetawa">RahulSaini</a></span
+          <div class="footer_socails">
+            <a
+              href="https://www.facebook.com/profile.php?id=100021983603336"
+              target="_blank"
+              class="footer_social"
             >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rahulmeetawa/"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/mr.meetawa/"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a href="https://twitter.com/rahumeetawa" class="footer_social">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a href="https://medium.com/@rahulmeetawa" class="footer_social">
+              <i class="uil uil-medium-m"></i>
+            </a>
+            <a href="https://github.com/rahulmeetawa" class="footer_social">
+              <i class="uil uil-github"></i>
+            </a>
+
+            <a href="mailto:rahulmeetawa@gmail.com" class="footer_social">
+              <i class="uil uil-envelope-send"></i>
+            </a>
           </div>
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
